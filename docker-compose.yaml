@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  ashuapp1:
+    image: anuraggupta:v1
+    build: .
+    container_name: anuraggupta
+    ports:
+      - "1219:80"
